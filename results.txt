@@ -1,0 +1,35 @@
+erou:
+life=66    power=63    defend=45    speed=56    luck=21
+
+monstru:
+life=72    power=72    defend=42    speed=56    luck=40
+----------------------------------------------------------
+
+
+runda 1:	Monster's turn.
+!!!THE MAGIC SHIELD IS ACTIVATED
+hero's_life=53    monster's_life=72    !monster's_attack=13
+
+
+runda 2:	Hero's turn.
+!!!THE DRAGON'S POWER IS ACTIVATED
+hero's_life=53    monster's_life=30    !hero's_attack=42
+
+
+runda 3:	Monster's turn.
+hero's_life=26    monster's_life=30    !monster's_attack=27
+
+
+runda 4:	Hero's turn.
+hero's_life=26    monster's_life=9    !hero's_attack=21
+
+
+runda 5:	Monster's turn.
+hero's_life=-1    monster's_life=9    !monster's_attack=27
+
+
+runda 6:	Hero's turn.
+hero's_life=-1    monster's_life=-12    !hero's_attack=21
+
+
+The hero won
